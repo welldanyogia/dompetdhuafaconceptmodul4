@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'app/handler/notification_handler.dart';
 import 'app/routes/app_pages.dart';
 import 'firebase_options.dart';
 
@@ -17,6 +18,7 @@ void main() async {
   await Get.putAsync(() async => await SharedPreferences.getInstance());
 
   final SigninController controller = Get.put(SigninController());
+  await FirebaseMessagingHandler().initPushNotification();
 
   runApp(
     GetMaterialApp(
