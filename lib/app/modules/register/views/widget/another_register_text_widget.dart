@@ -1,4 +1,3 @@
-import 'package:dompetdhuafaconceptmodul4/app/modules/register/views/register_view.dart';
 import 'package:dompetdhuafaconceptmodul4/app/modules/signin/views/signin_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

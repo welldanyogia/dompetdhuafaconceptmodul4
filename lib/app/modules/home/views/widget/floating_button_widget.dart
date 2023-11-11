@@ -10,13 +10,13 @@ class FloatingButtonWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.only(top: 700,right: 20,left: 330),
+      margin: const EdgeInsets.only(top: 700, right: 20, left: 330),
       child: FloatingActionButton(
-        onPressed: (){
-          _controller.pickImage();
+        onPressed: () {
+          _controller.logOut();
         },
         backgroundColor: Colors.green,
-        child: const Icon(Icons.add_a_photo),
+        child: const Icon(Icons.logout),
       ),
     );
   }

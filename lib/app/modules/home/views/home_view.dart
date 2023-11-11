@@ -1,3 +1,4 @@
+import 'package:dompetdhuafaconceptmodul4/app/modules/home/views/widget/floating_button_widget.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -20,7 +21,8 @@ class HomeView extends GetView<HomeController> {
           ImageWidget(),
           const GridWidget(),
           const WalletCardWidget(),
-          NewsWidget()
+          NewsWidget(),
+          FloatingButtonWidget(),
         ],
       ),
       // bottomNavigationBar: const BottomNavigationWidget(),
