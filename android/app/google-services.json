@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "715401506786",
+    "project_id": "dompet-dhuafa-concept",
+    "storage_bucket": "dompet-dhuafa-concept.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715401506786:android:8c00a7e37cc147446a53bb",
+        "android_client_info": {
+          "package_name": "dompetdhuafaconceptmodul4.dompetdhuafaconceptmodul4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715401506786-6qfget52jqqv5c11bqgh2g0m0l4j61qc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLZtNGTluRVmbk5BvIWdA55J6c8nzUhEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715401506786-6qfget52jqqv5c11bqgh2g0m0l4j61qc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "715401506786-apm3dhsljr3ovb8jjv30r7e7ckttvpig.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dompetdhuafaconceptmodul4.dompetdhuafaconceptmodul4"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
